@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  dnsproxy:
+    image: "prianichnikov/dnsproxy:latest"
+    container_name: "dnsproxy"
+    ports:
+      - "53:53/udp"
